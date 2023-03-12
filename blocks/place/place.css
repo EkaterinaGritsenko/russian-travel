@@ -3,8 +3,7 @@
   grid-template-columns: minmax(1fr, max-content) minmax(mincontent, max-content);
   grid-template-areas: 
     "place__title place__website"
-    "place__image place__paragraphs"
-   ;
+    "place__image place__paragraphs";
   box-sizing: border-box;
   align-items: start;
   gap: 48px 40px;
@@ -16,7 +15,6 @@
       "place__title"
       "place__website"
       "place__image"
-      "place__paragraphs"
-    ;
+      "place__paragraphs";
      }
   }
