@@ -1,0 +1,19 @@
+@media  (min-width: 320px) {
+    .places {
+      padding: 16px;
+      } 
+  }
+  
+  @media  (min-width: 768px) {
+      .places {
+        padding: 24px;
+        } 
+    }
+    @media  (min-width: 1024px) {
+      .places {
+        padding: 48px;
+        } 
+    }
+    
+    
+  
