@@ -3,28 +3,28 @@
   width: 440px;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 540px) {
     .place__image {
       width: 320px;
       height: 320px;
      }
   }
 
-  @media screen and (min-width: 768px) {
+  @media (min-width: 541px) {
     .place__image {
       width: 340px;
       height: 340px;
      }
   }
 
-  @media screen and (min-width: 1024px) {
+  @media (min-width: 1024px) {
     .place__image {
       width: 440px;
       height: 440px;
      }
   }
 
-  @media screen and (min-width: 1280px) {
+  @media (min-width: 1280px) {
     .place__image {
       width: 460px;
       height: 460px;
