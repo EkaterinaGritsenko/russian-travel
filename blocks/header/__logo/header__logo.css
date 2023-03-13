@@ -3,7 +3,7 @@
    height: 52px; 
 }
 
-@media (min-width:320px) {
+@media (max-width:540px) {
    .header {
      width: 142px;
      height: 42px;

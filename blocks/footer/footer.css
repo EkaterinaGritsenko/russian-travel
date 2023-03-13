@@ -1,18 +1,13 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: baseline;
+  flex-direction: row;
 }
 
-@media screen and (min-width: 320px) {
-    .footer {
-      flex-direction: column;
-     }
+@media screen and (max-width: 540px) {
+  .footer {
+    flex-direction: column;
   }
-
-  @media screen and (min-width: 767px) {
-    .footer {
-        flex-direction: row;
-     }
-  }
+}

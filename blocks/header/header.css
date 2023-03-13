@@ -6,7 +6,7 @@
     align-items: baseline;
 }
 
-@media screen and (min-width: 320px) {
+@media (max-width: 540px) {
   .header {
     height: 42px;
     min-width: 288px;
@@ -17,7 +17,7 @@
    }
 }
 
-@media screen and (min-width: 768px) {
+@media (max-width: 767px) {
     .header {
       min-width: 720px;
       margin-left: 24px;
@@ -27,7 +27,7 @@
      }
   }
 
-@media screen and (min-width: 1024px) {
+@media (max-width: 1023px) {
     .header {
       min-width: 928px;
       margin-left: 48px;
@@ -37,7 +37,7 @@
      }
   }
   
-  @media screen and (min-width: 1280px) {
+  @media (max-width: 1280px) {
     .header {
       min-width: 1184px;
       margin-left: 28px;
@@ -46,4 +46,3 @@
       margin-bottom: 58px;
      }
   }
-  
