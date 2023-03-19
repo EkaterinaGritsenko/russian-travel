@@ -1,6 +1,6 @@
 .header__lang-block {
   display: flex;
   flex-direction: row;
-  justify-items: baseline;
-  gap: 18px;
+  justify-items: center;
+  column-gap: 18px;
 }

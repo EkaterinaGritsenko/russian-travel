@@ -2,9 +2,6 @@
   align-self: flex-start;
   color: white;
   text-decoration: none;
-  height: 28px;
-  width: 29px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -14,12 +11,7 @@
 
 @media (max-width: 540px) {
   .header__lang-link {
-    width: 22px;
-    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
    }
 }
-/*
-.header__lang-link:first-child {
-    margin-right: 18px;
-}
-*/

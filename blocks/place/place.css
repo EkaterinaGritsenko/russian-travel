@@ -1,10 +1,9 @@
 .place {
   display: grid;
-  grid-template-columns: minmax(1fr, max-content) minmax(mincontent, max-content);
+  grid-template-columns: 1fr  minmax(mincontent, max-content);
   grid-template-areas: 
-    "place__title place__website"
-    "place__image place__paragraphs";
-  box-sizing: border-box;
+   "place__title place__website"
+   "place__image place__paragraphs";
   align-items: start;
   gap: 48px 40px;
 }
