@@ -9,18 +9,18 @@
   margin: 32px 412px 245px;
 }
 
-
 @media (max-width: 1023px) {
   .cover__subtitle {
-      margin: 32px 279px 195px;
-    }
+    margin: 32px 279px 195px;
+  }
 }
-  
+
 @media (max-width: 767px) {
   .cover__subtitle {
     margin: 32px 204px 115px;
-    }
   }
+}
+
 @media (max-width: 540px) {
   .cover__subtitle {
     font-size: 14px;

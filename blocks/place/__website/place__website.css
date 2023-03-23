@@ -3,4 +3,11 @@
   flex-direction: column;
   grid-area: place__website;
   align-content: flex-end;
+  margin: 0;
+}
+
+@media (max-width: 439px) {
+  .place__website {
+    margin: 0 16px;
+  }
 }

@@ -1,22 +1,18 @@
-
 .places {
   display: flex;
   flex-direction: column;
   row-gap: 80px;
-  padding: 48px;
-  margin-bottom: 92px;
+  margin: 0 148px;
 }
 
-@media  (max-width: 540px) {
-    .places {
-      padding: 16px;
-      margin-bottom: 66px;
-      } 
-  }
-  
-@media  (min-width: 541px) {
+@media (max-width: 1023px) {
   .places {
-    padding: 24px;
-  } 
+    margin: 0 48px;
+  }
 }
-   
+
+@media (max-width: 767px) {
+  .places {
+    margin: 0 24px;
+  }
+}

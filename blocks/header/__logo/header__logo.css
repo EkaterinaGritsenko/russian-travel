@@ -3,12 +3,9 @@
   height: 52px;
 }
 
-
-@media (max-width: 767px) 
-  {
-    .header__logo {
-      width: 142px;
-      height: 42px;
-   }
+@media (max-width: 767px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
 }
-     

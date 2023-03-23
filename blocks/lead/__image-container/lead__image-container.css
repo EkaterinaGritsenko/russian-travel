@@ -2,4 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-self: start;
+  margin-right: 148px;
+}
+
+@media screen and (max-width: 1079px) {
+  .lead__image-container {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image-container {
+    width: 100%;
+  }
 }

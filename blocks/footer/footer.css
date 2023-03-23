@@ -3,20 +3,28 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: baseline;
-  margin-top: 92px;
-  margin-bottom: 24px;
+  margin: 92px 48px 24px;
 }
 
-@media (max-width: 540px) {
+
+@media (max-width: 1023px) {
   .footer {
-    flex-direction: column;
-    margin-top: 64px;
+    margin: 0 24px 24px;
   }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .footer {
     flex-direction: column;
     margin-top: 88px;
+    gap: 48px;
+    margin: 0 16px  24px;
+  }
+}
+
+@media (max-width: 539px) {
+  .footer {
+    flex-direction: column;
+    margin-top: 64px 0  24px ;
   }
 }
