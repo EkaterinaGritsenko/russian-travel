@@ -5,6 +5,8 @@
   line-height: 18px;
   color: #FFFFFF;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 439px) {
