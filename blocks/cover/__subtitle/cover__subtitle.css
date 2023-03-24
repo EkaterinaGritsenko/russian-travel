@@ -6,7 +6,7 @@
   text-align: center;
   color: #FFFFFF;
   white-space: pre-line;
-  margin: 32px 412px 245px;
+ margin: 32px 412px 245px;
 }
 
 @media (max-width: 1023px) {
@@ -17,11 +17,17 @@
 
 @media (max-width: 767px) {
   .cover__subtitle {
-    margin: 32px 204px 115px;
+   margin: 32px 204px 115px;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
+  .cover__subtitle {
+   margin: 32px 100px 115px;
+  }
+}
+
+@media (max-width: 450px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;

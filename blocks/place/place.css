@@ -1,11 +1,24 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr minmax(mincontent, max-content);
+  grid-template-columns: 460px  auto;
   grid-template-areas:
     "place__title place__website"
     "place__image place__paragraphs";
   align-items: start;
   gap: 48px 40px;
+}
+
+@media (max-width: 1279px) {
+  .place {
+    /*grid-template-columns: 440px minmax(mincontent, max-content);*/
+    grid-template-columns: 440px auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place {
+    grid-template-columns: 340px auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -15,5 +28,7 @@
       "place__website"
       "place__image"
       "place__paragraphs";
+      grid-template-columns: auto;
   }
 }
+ 
