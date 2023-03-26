@@ -1,4 +1,6 @@
 .place__paragraphs {
   grid-area: place__paragraphs;
   margin: 0;
+  display: flex;
+  gap: 25px;
 }

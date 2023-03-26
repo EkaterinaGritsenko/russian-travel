@@ -14,7 +14,7 @@
 }
   
 @media (max-width: 767px) {
-  .footer {
+  .content {
       gap: 64px;
   }
 }

@@ -29,6 +29,7 @@
       "place__image"
       "place__paragraphs";
       grid-template-columns: auto;
+      gap: 32px;
   }
 }
  

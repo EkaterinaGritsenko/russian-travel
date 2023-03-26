@@ -5,7 +5,6 @@
   column-gap: 16px;
   row-gap: 16px;
   margin: 0 48px;
-  margin-bottom: 92px;
 }
 
 @media (max-width: 1023px) {
@@ -19,7 +18,6 @@
 @media (max-width: 767px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    margin-bottom: 88px;
     margin-left: 16px;
     margin-right: 16px;;
     row-gap: 12px;
@@ -29,6 +27,5 @@
 @media (max-width: 540px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    margin-bottom: 64px;
   }
 }
