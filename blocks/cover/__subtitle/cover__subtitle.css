@@ -4,34 +4,17 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  justify-self: center;
   color: #FFFFFF;
- 
-}
-/*
-@media (max-width: 1023px) {
-  .cover__subtitle {
-    margin: 32px 279px 195px;
-  }
+  margin: 32px 0 0;
+  padding: 0;
+  white-space: pre-line;
 }
 
-@media (max-width: 767px) {
-  .cover__subtitle {
-    margin-left: 204px;
-    margin-right: 204px;
-    margin-bottom: 115px;
-  }
-}
-
-@media (max-width: 620px) {
-  .cover__subtitle {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
-*/
 @media (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
+    margin-top: 16px; 
   }
 }
