@@ -9,7 +9,7 @@
   text-decoration: none;
   position: relative;
   z-index: 1;
-  margin: 0 48px 92px;
+  padding: 245px 312px;
 }
 
 .cover::after {
@@ -35,18 +35,18 @@
 
 @media (max-width: 1279px) {
   .cover {
-    margin: 0 0 92px;
+    padding: 195px 232px;
   }
 }
+
 @media (max-width: 1023px) {
   .cover {
-    margin: 0 0 88px;
-    max-height: 640px;
+    padding: 115px 104px;
   }
 }
 
 @media (max-width: 767px) {
   .cover {
-    margin: 0 0 64px;
+    padding: 33px 16px;
   }
 }

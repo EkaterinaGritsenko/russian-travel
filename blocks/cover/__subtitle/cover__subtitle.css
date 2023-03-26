@@ -5,10 +5,9 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
-  white-space: pre-line;
- margin: 32px 412px 245px;
+ 
 }
-
+/*
 @media (max-width: 1023px) {
   .cover__subtitle {
     margin: 32px 279px 195px;
@@ -17,20 +16,22 @@
 
 @media (max-width: 767px) {
   .cover__subtitle {
-   margin: 32px 204px 115px;
+    margin-left: 204px;
+    margin-right: 204px;
+    margin-bottom: 115px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .cover__subtitle {
-   margin: 32px 100px 115px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
-
-@media (max-width: 450px) {
+*/
+@media (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    margin: 16px 16px 33px;
   }
 }
