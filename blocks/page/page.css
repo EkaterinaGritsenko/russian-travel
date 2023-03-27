@@ -11,5 +11,6 @@
   margin: 0;
   min-width: 320px;
   max-width: 1280px;
-  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
 }

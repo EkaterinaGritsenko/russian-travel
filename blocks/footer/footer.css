@@ -17,7 +17,6 @@
 @media (max-width: 767px) {
   .footer {
     flex-direction: column;
-    margin-top: 88px;
     gap: 48px;
     margin-left: 16px;
     margin-right: 16px;
@@ -29,5 +28,6 @@
   .footer {
     flex-direction: column;
     margin-top: 64px;
+    font-size: 18px;
   }
 }
