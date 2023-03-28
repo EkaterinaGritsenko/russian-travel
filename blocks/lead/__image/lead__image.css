@@ -1,26 +1,14 @@
-.lead__image {
-   width: 100%;
-   margin: 0;
-   padding: 0;
-   display: flex;
-   flex-direction: column;
-   justify-self: start;
+lead__image {
+  width: 100%;
 }
+
 /*
-@media (max-width: 1279px) {
-  .lead__image {
-    max-height: 580px;
-  }
-}
-
-@media (max-width: 900px) {
-  .lead__image {
-    max-height: 480px;
-  }
-}
-
-@media (max-width: 450px) {
-  .lead__image {
-    max-height: 200px;
-  }
+.lead__image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  object-fit:fill;
 }*/

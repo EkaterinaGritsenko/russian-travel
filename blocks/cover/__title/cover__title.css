@@ -9,6 +9,7 @@
   width: 560px;
   margin: 0;
   padding: 0;
+  text-decoration: inherit;
 }
 
 @media (max-width: 550px) {
