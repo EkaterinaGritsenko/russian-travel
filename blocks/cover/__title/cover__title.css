@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 109%;
   text-align: center;
   color: #FFFFFF;
   align-self: center;
@@ -12,10 +12,16 @@
   text-decoration: inherit;
 }
 
+@media (max-width: 767px) {
+  .cover__title {
+    font-size: 52px;
+    width: 400px;
+  }
+}
+
 @media (max-width: 550px) {
   .cover__title {
     font-size: 32px;
-    line-height: 35px;
     width: 288px;
   }
 }

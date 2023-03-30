@@ -9,7 +9,6 @@
   box-sizing: border-box;
   position: relative;
   z-index: 1;
-  padding: 245px 312px;
   margin: 0 48px 0;
 }
 
@@ -21,7 +20,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #2A2C2F;
   opacity: 0.3;
   transition: opacity 200ms ease-in-out;
   z-index: -1;
@@ -36,19 +35,6 @@
 
 @media (max-width: 1279px) {
   .cover {
-    padding: 195px 232px;
     margin: 0;
-  }
-}
-
-@media (max-width: 1023px) {
-  .cover {
-    padding: 115px 104px;
-  }
-}
-
-@media (max-width: 767px) {
-  .cover {
-    padding: 33px 16px;
   }
 }

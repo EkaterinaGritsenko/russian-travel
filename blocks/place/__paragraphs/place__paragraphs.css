@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1023px) {
-  .place__paragraph {
+  .place__paragraphs {
     gap: 25px;
   }
 }
